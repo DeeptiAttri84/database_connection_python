@@ -6,3 +6,4 @@ engine=sqlalchemy.create_engine('mysql+pymysql://deepti:deepti@localhost:3306/ta
 query='''select id,name from product'''
 df3=pd.read_sql_query(query,engine)
 print(df3)
+# my another change
